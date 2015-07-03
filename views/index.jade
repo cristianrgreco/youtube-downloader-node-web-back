@@ -8,13 +8,13 @@ html
         div.container
             div.controls
                 img.logo(src='/static/app/youtube.png')
-                input.search(type='text' placeholder='http://www.youtube.com/watch?v=CODE')
+                input.search(id='searchField' type='text' placeholder='http://www.youtube.com/watch?v=CODE')
                 span.downloadTypeGroup
-                    input(type='radio')
+                    input(type='radio' name='downloadType' checked='checked' value='video')
                     label Video
-                    input(type='radio')
+                    input(type='radio' name='downloadType' value='audio')
                     label Audio
-                button.download(type='submit') Pirate
+                button.download(id='startDownload' type='submit') Pirate
             table.downloadsTable(border)
                 thead
                     tr
@@ -24,14 +24,5 @@ html
                         th %
                         th
                 tbody
-                    - for (var i = 0; i < 15; i++) {
-                    tr
-                        td VaQBsIA0r08
-                        td
-                            i.fa.fa-music
-                        td Play The Angel - You and Me - Music Video
-                        td
-                            progress(value=40 max=100)
-                        td
-                            button.download Submit
-                    - }
+    script(src='/static/jquery/jquery.min.js' type='text/javascript')
+    script(src='/static/app/js/index.js' type='text/javascript')
