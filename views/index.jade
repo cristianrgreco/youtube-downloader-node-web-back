@@ -1,0 +1,37 @@
+doctype html
+html
+    head
+        title YouTube Downloader
+        link(href='/static/font-awesome/css/font-awesome.css' rel='stylesheet' type='text/css')
+        link(href='/static/app/css/index.css' rel='stylesheet' type='text/css')
+    body
+        div.container
+            div.controls
+                img.logo(src='/static/app/youtube.png')
+                input.search(type='text' placeholder='http://www.youtube.com/watch?v=CODE')
+                span.downloadTypeGroup
+                    input(type='radio')
+                    label Video
+                    input(type='radio')
+                    label Audio
+                button.download(type='submit') Pirate
+            table.downloadsTable(border)
+                thead
+                    tr
+                        th ID
+                        th Type
+                        th Name
+                        th %
+                        th
+                tbody
+                    - for (var i = 0; i < 15; i++) {
+                    tr
+                        td VaQBsIA0r08
+                        td
+                            i.fa.fa-music
+                        td Play The Angel - You and Me - Music Video
+                        td
+                            progress(value=40 max=100)
+                        td
+                            button.download Submit
+                    - }

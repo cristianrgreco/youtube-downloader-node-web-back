@@ -1,0 +1,62 @@
+* {
+    font-size: 24px;
+    font-family: 'Consolas', sans-serif;
+}
+
+.container {
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 110px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.search {
+    width: 465px;
+    margin-top: 20px;
+    padding: 7px 12px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+}
+
+.downloadTypeGroup input {
+    margin-left: 20px;
+}
+
+.downloadTypeGroup label {
+    margin-left: 5px;
+}
+
+.download {
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 7px 12px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+}
+
+.downloadsTable {
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.downloadsTable th, .downloadsTable td {
+    padding: 2px 12px;
+    border: 1px solid lightgrey;
+}
+
+.downloadsTable td {
+    font-size: 20px;
+}
+
+.downloadsTable td progress {
+    width: 120px;
+}
