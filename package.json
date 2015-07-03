@@ -18,7 +18,6 @@
   "homepage": "https://github.com/cristianrgreco/youtube-downloader-node-web-back#readme",
   "dependencies": {
     "express": "^4.13.0",
-    "jade": "^1.11.0",
     "yamljs": "^0.2.3",
     "youtube-downloader-node": "git+https://github.com/cristianrgreco/youtube-downloader-node.git"
   },
