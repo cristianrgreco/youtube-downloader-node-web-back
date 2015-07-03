@@ -1,0 +1,26 @@
+{
+  "name": "youtube-downloader-node-web-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --harmony node_modules/nodeunit/bin/nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianrgreco/youtube-downloader-node-web-back.git"
+  },
+  "author": "Cristian Greco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianrgreco/youtube-downloader-node-web-back/issues"
+  },
+  "homepage": "https://github.com/cristianrgreco/youtube-downloader-node-web-back#readme",
+  "dependencies": {
+    "express": "^4.13.0",
+    "youtube-downloader-node": "git+https://github.com/cristianrgreco/youtube-downloader-node.git"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  }
+}
