@@ -1,0 +1,4 @@
+binaries:
+  youtubeDl: /Users/cristiangreco/Documents/Playground/youtube-downloader-node-web-back/bin/youtube-dl
+  ffmpeg: /Users/cristiangreco/Documents/Playground/youtube-downloader-node-web-back/bin/ffmpeg
+  ffprobe: /Users/cristiangreco/Documents/Playground/youtube-downloader-node-web-back/bin/ffprobe
