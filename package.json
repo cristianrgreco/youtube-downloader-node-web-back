@@ -20,7 +20,7 @@
     "express": "^4.13.0",
     "jade": "^1.11.0",
     "yamljs": "^0.2.3",
-    "youtube-downloader-node": "file:../youtube-downloader-node"
+    "youtube-downloader-node": "git+https://github.com/cristianrgreco/youtube-downloader-node.git"
   },
   "devDependencies": {
     "nodeunit": "^0.9.1"
